@@ -1,0 +1,17 @@
+{
+  "overall_length": 31.0,
+  "outer_profile": [
+    {"feature": "chamfer", "start_x": 31.0, "end_x": 30.0, "start_y": 5.0, "end_y": 6.0},
+    {"feature": "cylinder", "start_x": 30.0, "end_x": 25.0, "start_y": 6.0, "end_y": 6.0},
+    {"feature": "step", "start_x": 25.0, "end_x": 25.0, "start_y": 6.0, "end_y": 7.5},
+    {"feature": "cylinder", "start_x": 25.0, "end_x": 12.5, "start_y": 7.5, "end_y": 7.5},
+    {"feature": "fillet", "start_x": 12.5, "end_x": 6.275, "start_y": 7.5, "end_y": 10.0, "radius": 9.0, "type": "concave"},
+    {"feature": "cylinder", "start_x": 6.275, "end_x": 5.0, "start_y": 10.0, "end_y": 10.0},
+    {"feature": "face", "start_x": 5.0, "end_x": 0.0, "start_y": 10.0, "end_y": 0.0, "radius": 40.5, "type": "convex"}
+  ],
+  "internal_features": [
+    {"feature": "thread", "start_x": 0.0, "end_x": 15.0, "diameter": 4.2},
+    {"feature": "hole", "start_x": 15.0, "end_x": 25.0, "diameter": 9.0},
+    {"feature": "thread", "start_x": 25.0, "end_x": 31.0, "diameter": 2.5}
+  ]
+}

@@ -1,0 +1,36 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+cadcoder_env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output and temp files
+*.log
+.temp/
+reliability_test_results/
+ai_geometry_test_results/
+backup_working_v1/
+views/
+output/
+New version/
+v1_3D_Extraction/
+
+# Keep standard test outputs out of the repo unless specified
+extracted_parameters.json
+final_council_extracted_parameters.json
+generated_part.scad
+*.jpg
+*.svg
+*.dxf
+*.step
+
+# OS generated files
+.DS_Store
+Thumbs.db
